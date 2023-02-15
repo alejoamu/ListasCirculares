@@ -32,7 +32,7 @@ public class CircularList {
     }
     public void delete(String goal){
         if(head==null){
-            System.out.println("Lista vacia");
+            System.out.println("Empty lsit");
         }else if(head == head.getNext()){
             head = null;
         }
